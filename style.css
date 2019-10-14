@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background:white;
+}
+
+body.gameOver{
+	background:white;	
+	color:black;
+}
+
+body.startGame{
+	background:white;
+	color:black;
+}
+
+canvas {
+	background:white;
+	border: 1px solid black;
+	display: block;
+	margin: auto;
+}
+
+#restartButton {
+	display: none;
+}
+.directions {
+	width: 400px;
+	margin: auto;
+	text-align: left;
+}
+
+a{
+	color:blue;	
+	outline: solid 1px purple;
+	padding: 5px;
+}
